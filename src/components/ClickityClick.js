@@ -11,7 +11,9 @@ import React from 'react'
     }
     
     handlClick = () => {
-      
+      this.setState({
+        hasBeenClicked: true
+      })
     }
     
     render() {
