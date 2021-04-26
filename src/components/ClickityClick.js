@@ -13,7 +13,7 @@ class ClickityClick extends React.Component {
  
   handleClick = () => {
    this.setState(previousState => {
-     return:{
+     return {
        toggled: !previousState.toggled
      }
    })
