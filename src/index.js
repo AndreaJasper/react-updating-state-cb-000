@@ -4,7 +4,7 @@ import ClickityClick from './Components.ClickityClick';
 
 ReactDOM.render(
   <div>
-    <ClickityClick />
+    <ClickityClick />,
   </div>,
   document.getElementById('root')
 );
