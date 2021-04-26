@@ -22,8 +22,7 @@ class ClickityClick extends React.Component {
   render() {
     return (
       <div>
-       <h1>{this.state.count}</h1>
-        <button onClick={this.handleClick}>Click me!</button>
+        <button onClick={this.handleClick}>{this.state.toggled ? "ON" : "Off"}</button>
       </div>
     );
   }
