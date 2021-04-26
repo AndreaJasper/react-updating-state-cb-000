@@ -12,10 +12,11 @@ class ClickityClick extends React.Component {
   }
  
   handleClick = () => {
-   let newCount = this.state.count + 1
-   
-   this.setState({
-    count: newCount  
+   this.setState(previousState => {
+     return {
+       count:previousState.count + 1
+     }
+   })
    })
   }
  
